@@ -1,0 +1,50 @@
+# Entorno Virtual de Python
+env/
+.venv/
+venv/
+
+# Archivos Compilados de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Base de Datos de Django
+db.sqlite3
+*.sqlite3
+
+# Migraciones de Django
+*/migrations/*
+
+# Dependencias de Node.js
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de compilación de Vue.js
+frontend/dist/
+frontend/build/
+frontend/.temp/
+
+# Configuraciones locales del entorno
+*.env
+.env.*
+config/settings_local.py
+
+# Archivos generados por IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos temporales y de logs
+*.log
+*.out
+*.swp
+*.tmp
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Git
+.git/
